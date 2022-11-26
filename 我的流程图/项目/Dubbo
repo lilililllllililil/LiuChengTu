@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-26T12:41:41.539Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" version="20.6.0" etag="risxPYpsH0TotuxLjZh-" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-26T13:13:39.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" version="20.6.0" etag="ZDPkjs_wMveZ0irqTdWX" type="github">
   <diagram id="xUuW_OA3jzL-ZvqWpmEm" name="第 1 页">
     <mxGraphModel dx="1135" dy="475" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,8 +23,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XQeOf-1Y0iqX99p_YkV8-1" value="消费者:调用远程服务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="114" y="303" width="120" height="60" as="geometry" />
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-1" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="276" width="202" height="96" as="geometry" />
         </mxCell>
         <mxCell id="XQeOf-1Y0iqX99p_YkV8-2" value="生产者(服务提供者)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="549" y="294" width="120" height="60" as="geometry" />
@@ -38,12 +38,8 @@
         <mxCell id="XQeOf-1Y0iqX99p_YkV8-5" value="tomcat容器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="570" y="243" width="78" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="XQeOf-1Y0iqX99p_YkV8-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#7EA6E0;fontColor=#7EA6E0;" edge="1" parent="1" source="XQeOf-1Y0iqX99p_YkV8-6" target="XQeOf-1Y0iqX99p_YkV8-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="174" y="195" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;strokeColor=#7EA6E0;fontSize=15;fontColor=#000000;dashed=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XQeOf-1Y0iqX99p_YkV8-6" target="XQeOf-1Y0iqX99p_YkV8-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XQeOf-1Y0iqX99p_YkV8-6" value="注册中心:服务的注册与发现" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="300" y="104" width="179" height="91" as="geometry" />
@@ -55,10 +51,10 @@
           <mxGeometry x="488" y="165" width="232" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XQeOf-1Y0iqX99p_YkV8-14" value="2.订阅(申请,获取远程服务的url,第一次初始化)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#EA6B66;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-1" y="167" width="321" height="30" as="geometry" />
+          <mxGeometry x="-46" y="142" width="321" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XQeOf-1Y0iqX99p_YkV8-16" value="3.通知(异步)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#7EA6E0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="195" y="235" width="101" height="30" as="geometry" />
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-16" value="3.通知:返回远程服务的url(异步)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#7EA6E0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="74" y="199" width="226" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XQeOf-1Y0iqX99p_YkV8-23" value="6.计数(异步)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#7EA6E0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="345.5" y="393" width="101" height="30" as="geometry" />
@@ -71,6 +67,18 @@
         </mxCell>
         <mxCell id="XQeOf-1Y0iqX99p_YkV8-28" value="5.将结果封装为一个代理对象,给变量赋值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="237" y="354" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-37" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;消费者:调用远程服务&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="17" y="276" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-40" value="" style="whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="47" y="301" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-41" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;缓存&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="61" y="302" width="42" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-43" value="服务提供方的地址" style="whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="103" y="315" width="57" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
