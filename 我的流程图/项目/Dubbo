@@ -1,1 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2022-11-26T10:42:01.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" version="20.6.0" etag="HSu1TUAP2PHNq_S5AYM8" type="github"><diagram id="wzgAI8-Qt-cBGukYLQKD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-26T12:41:41.539Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" version="20.6.0" etag="risxPYpsH0TotuxLjZh-" type="github">
+  <diagram id="xUuW_OA3jzL-ZvqWpmEm" name="第 1 页">
+    <mxGraphModel dx="1135" dy="475" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="XQeOf-1Y0iqX99p_YkV8-3" target="XQeOf-1Y0iqX99p_YkV8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-3" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="534" y="237" width="153" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;strokeColor=#EA6B66;fontColor=#EA6B66;" edge="1" parent="1" source="XQeOf-1Y0iqX99p_YkV8-1" target="XQeOf-1Y0iqX99p_YkV8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;strokeColor=#7EA6E0;fontColor=#7EA6E0;" edge="1" parent="1" source="XQeOf-1Y0iqX99p_YkV8-1" target="XQeOf-1Y0iqX99p_YkV8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#7EA6E0;" edge="1" parent="1" source="XQeOf-1Y0iqX99p_YkV8-1" target="XQeOf-1Y0iqX99p_YkV8-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="518" y="333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-1" value="消费者:调用远程服务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="303" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-2" value="生产者(服务提供者)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="549" y="294" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;strokeColor=#EA6B66;dashed=1;" edge="1" parent="1" source="XQeOf-1Y0iqX99p_YkV8-3" target="XQeOf-1Y0iqX99p_YkV8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#7EA6E0;fontColor=#7EA6E0;" edge="1" parent="1" source="XQeOf-1Y0iqX99p_YkV8-3" target="XQeOf-1Y0iqX99p_YkV8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-5" value="tomcat容器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="243" width="78" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#7EA6E0;fontColor=#7EA6E0;" edge="1" parent="1" source="XQeOf-1Y0iqX99p_YkV8-6" target="XQeOf-1Y0iqX99p_YkV8-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="174" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-6" value="注册中心:服务的注册与发现" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="104" width="179" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-7" value="监控中心:统计服务的调用次数和调用时间的监控中心" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="234" y="461" width="321" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-9" value="1.将ip端口号注册(第一次初始化)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#EA6B66;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="488" y="165" width="232" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-14" value="2.订阅(申请,获取远程服务的url,第一次初始化)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#EA6B66;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-1" y="167" width="321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-16" value="3.通知(异步)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#7EA6E0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="195" y="235" width="101" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-23" value="6.计数(异步)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#7EA6E0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="345.5" y="393" width="101" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-25" value="4.进行远程调用rpc(同步)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="300.5" y="303" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-26" value="Zookeeper服务端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="328.5" y="101" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XQeOf-1Y0iqX99p_YkV8-28" value="5.将结果封装为一个代理对象,给变量赋值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="237" y="354" width="290" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
